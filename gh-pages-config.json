@@ -3,7 +3,7 @@
 		{ "pattern": "docs/", "destination": "docs/"}
 	],
 	"content":   [
-		{ "pattern": "html/", "destination": "doxygen/"}
+		{ "pattern": "html/", "destination": "docs/doxygen/"}
 	],
 	"templatePatterns": [
 		"docs/_config.yaml"
