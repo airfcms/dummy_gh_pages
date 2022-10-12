@@ -1,6 +1,6 @@
 @Library('csw-airfcms-pipelines-library') _
 
-devBuxGitHubPagesPipeline.groovy {
+devBuxGitHubPagesPipeline {
 	GitHubPagesBranch='gh-pages'
 	GitHubPagesVersion='latest'
 	GitHubPagesPullRequest=False
