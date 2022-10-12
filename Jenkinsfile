@@ -6,4 +6,5 @@ devBuxGitHubPagesPipeline {
 	GitHubPagesPullRequest=False
 	GitHubPagesConfigFile='gh-pages-config.json'
 	GitHubPagesTemplateParamsFile='gh-pages-template-params.json'
+	GitHubPagesCredentialsID='github-airfcms'
 }
