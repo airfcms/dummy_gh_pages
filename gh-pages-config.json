@@ -1,7 +1,7 @@
 {
 	"root": "docs",
 	"core": [
-		{ "pattern": "docs/", "destination": "docs/"}
+		{ "pattern": "docs/**", "destination": "docs/"}
 	],
 	"content":   [
 		{ "pattern": "html/", "destination": "doxygen/"}
