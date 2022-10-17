@@ -5,7 +5,7 @@ devBuxGitHubPagesPipeline {
 	GitHubPagesVersion='latest'
 	GitHubPagesPullRequest=False
 	GitHubPagesConfigFile='gh-pages-config.json'
-	GitHubPagesTemplateParamsFile='gh-pages-template-params.json',
-	GitHubPagesUsername='mavarzea',
+	GitHubPagesTemplateParamsFile='gh-pages-template-params.json'
+	GitHubPagesUsername='mavarzea'
 	GitHubPagesEmail='mavarzea@criticalsoftware.com'
 }
