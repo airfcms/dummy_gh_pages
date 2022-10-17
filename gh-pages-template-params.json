@@ -3,7 +3,7 @@
 		"title": "Jinja2 Rulez",
 		"description": "Owned by Jinja2 - Next Gen"
 	},
-	"index" {
+	"index": {
 		"h1": "AIRBUS Heading 1",
 		"h2": "AIRBUS Heading 2",
 		"h3": "AIRBUS Heading 3"
