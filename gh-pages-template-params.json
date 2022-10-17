@@ -7,6 +7,6 @@
 		"h1": "AIRBUS Heading 1",
 		"h2": "AIRBUS Heading 2",
 		"h3": "AIRBUS Heading 3",
-		"docs": [{"version": "latest", "link": "- [C++ Documentation](./latest/doxygen/index.html)"}]
+		"docs": [{"version": "latest", "text": "C++ Documentation", "link": "./latest/doxygen/index.html"}]
 	}
 }
