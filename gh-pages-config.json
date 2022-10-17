@@ -7,6 +7,7 @@
 		{ "pattern": "html/**", "destination": "doxygen/"}
 	],
 	"templatePatterns": [
-		"docs/_config.yaml"
+		"docs/_config.yaml",
+		"docs/index.md"
 	]
 }
