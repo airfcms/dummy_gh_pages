@@ -80,7 +80,7 @@ end
 
 {% for entry in index.docs %}
 - {{entry.version}}
-	- [{{entry.text}}] ({{entry.link}})
+	- [{{entry.text}}]({{entry.link}})
 {% endfor %}
 
 ### Small image
