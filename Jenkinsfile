@@ -6,7 +6,7 @@ devBuxGitHubPagesPipeline {
 	GitHubPagesPullRequest=False
 	GitHubPagesConfigFile='gh-pages-config.json'
 	GitHubPagesTemplateParamsFile='gh-pages-template-params.json'
-	GitHubPagesEnforceSchema=true,
+	GitHubPagesEnforceSchema=true
 	GitHubPagesUsername='mavarzea'
 	GitHubPagesEmail='mavarzea@criticalsoftware.com'
 }
