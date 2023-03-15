@@ -10,17 +10,17 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# {{index.h1}}
+# {{latest.index.h1}}
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
-## {{index.h2}}
+## {{latest.index.h2}}
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
 
-### {{index.h3}}
+### {{latest.index.h3}}
 
 ```js
 // Javascript code with syntax highlighting.
@@ -78,7 +78,7 @@ end
 
 ### And a nested list:
 
-{% for entry in index.docs %}
+{% for entry in latest.index.docs %}
 - {{entry.version}}
 	- [{{entry.text}}]({{entry.link}})
 {% endfor %}
