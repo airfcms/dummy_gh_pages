@@ -6,8 +6,8 @@
 		},
 		"index": {
 			"h1": "AIRBUS Heading 1 - 2º",
-			"h2": "AIRBUS Heading 2 - 2",
-			"h3": "AIRBUS Heading 3 - 2",
+			"h2": "AIRBUS Heading 2 - 2º",
+			"h3": "AIRBUS Heading 3 - 2º",
 			"docs": [{"version": "latest", "text": "C++ Documentation", "link": "./latest/doxygen/index.html"}]
 		}
 	}
