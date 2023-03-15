@@ -1,4 +1,5 @@
 {
+	"versions": {
 	"latest": {
 		"main": {
 			"title": "Jinja2 Rulez",
@@ -10,5 +11,6 @@
 			"h3": "AIRBUS Heading 3 - 2º",
 			"docs": [{"version": "latest", "text": "C++ Documentation", "link": "./latest/doxygen/index.html"}]
 		}
+	}
 	}
 }
