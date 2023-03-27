@@ -1,16 +1,31 @@
 {
-	"versions": {
-	"latest": {
-		"main": {
+	"overall": {
+		"header": {
 			"title": "Jinja2 Rulez",
 			"description": "Owned by Jinja2 - Next Gen"
 		},
-		"index": {
-			"h1": "AIRBUS Heading 1 - 2º",
-			"h2": "AIRBUS Heading 2 - 2º",
-			"h3": "AIRBUS Heading 3 - 2º",
-			"docs": [{"version": "latest", "text": "C++ Documentation", "link": "./latest/doxygen/index.html"}]
+		"body": {
+			"formatting": "Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.",
+			"link": {"text": "Link to another page (release notes)", "url": "./another-page.html"},
+			"h1": {"heading": "AIRBUS h1", "paragraphs": ["This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere."]},
+			"h2": {"heading": "AIRBUS h2", "blocks": ["This is a blockquote following a header.", "", "When something is important enough, you do it even if the odds are not in your favor."]},
+			"h3": {"heading": "AIRBUS h3", "samples": [{"lang": "js", "code": "// Javascript code with syntax highlighting.\nvar fun = function lang(l) {\n  dateformat.i18n = require('./lang/' + l)\n  return true;\n}"}, {"lang": "ruby", "code": "GitHubPages::Dependencies.gems.each do |gem, version|\n  s.add_dependency(gem, \"= #{version}\")\nend"}]},
+			"h4": {"heading": "AIRBUS h4", "list": ["This is an unordered list following a header.", "This is an unordered list following a header.", "This is an unordered list following a header."]},
+			"h5": {"heading": "AIRBUS h5", "list": ["This is an ordered list following a header.", "This is an ordered list following a header.", "This is an ordered list following a header."]},
+			"h6": {"heading": "AIRBUS h6", "table": {"header": ["head1", "head two", "three"], "rows": [["ok", "ood swedish fish", "nice"], ["out of stock", "good and plenty", "nice"], ["ok", "good `oreos`", "hmm"], ["ok", "good `zoute` drop", "yumm"]]}},
+			"img1": {"text": "Octocat", "url": "https://github.githubassets.com/images/icons/emoji/octocat.png"},
+			"img2": {"text": "Branching", "url": "https://docs.github.com/assets/cb-106613/mw-1000/images/help/repository/hello-world-repo.webp"},
+			"html": [{"term": "Name", "description": "Godzilla"}, {"term": "Born", "description": "1952"}, {"term": "Birthplace", "description": "Japan"}, {"term": "Color", "description": "Green"}]		}
+	},
+	"versions": {
+		"latest": {
+			"notes": [
+				{"title": "Added new method", "description": "New method to rule the world"},
+				{"title": "Refactored old methods", "description": "Got it wrong the first time"}
+			],
+			"index": {
+				"docs": [{"version": "latest", "text": "C++ Documentation", "link": "./latest/doxygen/index.html"}]
+			}
 		}
-	}
 	}
 }

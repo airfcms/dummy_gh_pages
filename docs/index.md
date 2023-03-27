@@ -2,65 +2,47 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
+{{overall.body.formatting}}
 
-[Link to another page](./another-page.html).
+[{overall.body.link.text}}]({{overall.body.link.url}}).
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-{% for version, object in versions.items() %}
-	{{ version }}
+# {{overall.body.h1.heading}}
+{% for paragraph in overall.body.h1.heading.paragraphs %}
+{paragraph}}
 {% endfor %}
 
-# {{versions.latest.index.h1}}
+## {{overall.body.h2.heading}}
+{% for paragraph in overall.body.h1.heading.paragraphs %}
+> {paragraph}}
+{% endfor %}
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## {{versions.latest.index.h2}}
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### {{versions.latest.index.h3}}
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+### {{overall.body.h3.heading}}
+{% for sample in overall.body.h3.samples %}
+```{{sample.lang}}
+{{sample.code}}
+{% endfor %}
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+#### {{overall.body.h4.heading}}
+{% for entry in overall.body.h4.list %}
+*   {{entry}}
+{% endfor %}
 
-#### Header 4
+##### {{overall.body.h5.heading}}
+{% for entry in overall.body.h5.list %}
+{{loop.index}}.  {{entry}}
+{% endfor %}
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
+###### {{overall.body.h6.heading}}
+| {{overall.body.h6.table[0]}} | {{overall.body.h6.table[1]}} | {{overall.body.h6.table[2]}} |
 |:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+{% for row in overall.body.h6.table.rows %}
+| row[0] | row[1] | row[2] |
+{% endfor %}
 
 ### There's a horizontal rule below this.
 
@@ -80,7 +62,7 @@ end
 1.  Item three
 1.  Item four
 
-### And a nested list:
+### And a nested list (documentation):
 
 {% for entry in versions.latest.index.docs %}
 - {{entry.version}}
@@ -89,24 +71,20 @@ end
 
 ### Small image
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+![{{overall.body.img1.text}}]({{overall.body.img1.url}})
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+![{{overall.body.img2.text}}]({{overall.body.img2.url}})
 
 
 ### Definition lists can be used with HTML syntax.
 
 <dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
+{% for entry in overall.body.html %}
+<dt>{{entry.term}}</dt>
+<dd>{{entry.description}}</dd>
+{% endfor %}
 </dl>
 
 ```
