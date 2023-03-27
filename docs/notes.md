@@ -1,3 +1,3 @@
 {% for key, value in versions.items() %}- {{key}}
-	- {{value.notes.title}}
-		- {{value.notes.description}}{% endfor %}
+{% for note in value.notes %}	- {{note.title}}
+		- {{note.description}}{% endfor %}{% endfor %}
