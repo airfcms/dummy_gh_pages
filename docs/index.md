@@ -52,8 +52,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 ### And a nested list (documentation):
 
-{% for entry in versions.latest.index.docs %}- {{entry.version}}
-	- [{{entry.text}}]({{entry.link}}){% endfor %}
+{% for key, value in versions.items() %}- {{key}}
+	- [{{value.index.docs.text}}]({{value.index.docs.link}}){% endfor %}
 
 ### Small image
 

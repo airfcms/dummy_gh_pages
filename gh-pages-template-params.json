@@ -8,7 +8,7 @@
          "formatting":"Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.",
          "link":{
             "text":"Link to another page (release notes)",
-            "url":"./another-page.html"
+            "url":"./notes.md"
          },
          "h1":{
             "heading":"AIRBUS h1 º",
