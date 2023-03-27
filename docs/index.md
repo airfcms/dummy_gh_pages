@@ -24,8 +24,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 {% for sample in overall.body.h3.samples %}
 ```{{sample.lang}}
 {{sample.code}}
-{% endfor %}
 ```
+{% endfor %}
 
 #### {{overall.body.h4.heading}}
 {% for entry in overall.body.h4.list %}
