@@ -51,10 +51,10 @@ There should be whitespace between paragraphs. We recommend including a README, 
 1.  Item four
 
 ### And a nested list (documentation):
-
 {% for key, value in versions.items() %}- {{key}}
-	- [{{value.index.docs.text}}]({{value.index.docs.link}}){% endfor %}
-
+{% for doc in value.docs.items() %}- {{key}}
+	- [{{doctext}}]({{doc.link}})
+{% endfor %}{% endfor %}
 ### Small image
 
 ![{{overall.body.img1.text}}]({{overall.body.img1.url}})
