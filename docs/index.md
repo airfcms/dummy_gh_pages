@@ -11,12 +11,12 @@ There should be whitespace between paragraphs.
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # {{overall.body.h1.heading}}
-{% for paragraph in overall.body.h1.heading.paragraphs %}
+{% for paragraph in overall.body.h1.paragraphs %}
 {paragraph}}
 {% endfor %}
 
 ## {{overall.body.h2.heading}}
-{% for paragraph in overall.body.h1.heading.paragraphs %}
+{% for paragraph in overall.body.h1.paragraphs %}
 > {paragraph}}
 {% endfor %}
 
