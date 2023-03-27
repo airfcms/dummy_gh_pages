@@ -1,0 +1,14 @@
+{
+	"root": "docs",
+	"core": [
+		{ "pattern": "docs/**", "destination": "."}
+	],
+	"content":   [
+		{ "pattern": "html/**", "destination": "doxygen/"}
+	],
+	"templatePatterns": [
+		"docs/_config.yaml",
+		"docs/index.md",
+		"docs/notes.md"
+	]
+}

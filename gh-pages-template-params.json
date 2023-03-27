@@ -1,0 +1,139 @@
+{
+    "versions": {
+        "latest": {
+            "notes": [
+                {
+                    "description": "New method to rule the world",
+                    "title": "Added new method"
+                },
+                {
+                    "description": "Got it wrong the first time",
+                    "title": "Refactored old methods"
+                }
+            ],
+            "index": {
+                "docs": [
+                    {
+                        "link": "./latest/doxygen/index.html",
+                        "text": "C++ Documentation",
+                        "version": "latest"
+                    }
+                ]
+            }
+        }
+    },
+    "overall": {
+        "header": {
+            "description": "Owned by Jinja2 - Next Gen",
+            "title": "Jinja2 Rulez"
+        },
+        "body": {
+            "link": {
+                "text": "Link to another page (release notes)",
+                "url": "./notes.md"
+            },
+            "h1": {
+                "heading": "AIRBUS h1 \u00ba",
+                "paragraphs": [
+                    "This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere."
+                ]
+            },
+            "h2": {
+                "heading": "AIRBUS h2",
+                "blocks": [
+                    "This is a blockquote following a header.",
+                    "",
+                    "When something is important enough, you do it even if the odds are not in your favor."
+                ]
+            },
+            "html": [
+                {
+                    "description": "Godzilla",
+                    "term": "Name"
+                },
+                {
+                    "description": "1952",
+                    "term": "Born"
+                },
+                {
+                    "description": "Japan",
+                    "term": "Birthplace"
+                },
+                {
+                    "description": "Green",
+                    "term": "Color"
+                }
+            ],
+            "h3": {
+                "heading": "AIRBUS h3",
+                "samples": [
+                    {
+                        "code": "// Javascript code with syntax highlighting.\\nvar fun = function lang(l) {\\n  dateformat.i18n = require('./lang/' + l)\\n  return true;\\n}",
+                        "lang": "js"
+                    },
+                    {
+                        "code": "GitHubPages::Dependencies.gems.each do |gem, version|\\n  s.add_dependency(gem, \\\"= #{version}\\\")\\nend",
+                        "lang": "ruby"
+                    }
+                ]
+            },
+            "h4": {
+                "heading": "AIRBUS h4",
+                "list": [
+                    "This is an unordered list following a header.",
+                    "This is an unordered list following a header.",
+                    "This is an unordered list following a header."
+                ]
+            },
+            "h5": {
+                "heading": "AIRBUS h5",
+                "list": [
+                    "This is an ordered list following a header.",
+                    "This is an ordered list following a header.",
+                    "This is an ordered list following a header."
+                ]
+            },
+            "formatting": "Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.",
+            "h6": {
+                "heading": "AIRBUS h6",
+                "table": {
+                    "header": [
+                        "head1",
+                        "head two",
+                        "three"
+                    ],
+                    "rows": [
+                        [
+                            "ok",
+                            "ood swedish fish",
+                            "nice"
+                        ],
+                        [
+                            "out of stock",
+                            "good and plenty",
+                            "nice"
+                        ],
+                        [
+                            "ok",
+                            "good `oreos`",
+                            "hmm"
+                        ],
+                        [
+                            "ok",
+                            "good `zoute` drop",
+                            "yumm"
+                        ]
+                    ]
+                }
+            },
+            "img2": {
+                "text": "Branching",
+                "url": "https://docs.github.com/assets/cb-106613/mw-1000/images/help/repository/hello-world-repo.webp"
+            },
+            "img1": {
+                "text": "Octocat",
+                "url": "https://github.githubassets.com/images/icons/emoji/octocat.png"
+            }
+        }
+    }
+}
