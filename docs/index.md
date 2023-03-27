@@ -38,7 +38,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 {% endfor %}
 
 ###### {{overall.body.h6.heading}}
-| {{overall.body.h6.table[0]}} | {{overall.body.h6.table[1]}} | {{overall.body.h6.table[2]}} |
+| {{overall.body.h6.table.header[0]}} | {{overall.body.h6.table.header[1]}} | {{overall.body.h6.table.header[2]}} |
 |:-------------|:------------------|:------|
 {% for row in overall.body.h6.table.rows %}
 | row[0] | row[1] | row[2] |
