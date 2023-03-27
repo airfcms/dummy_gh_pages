@@ -4,7 +4,7 @@ layout: default
 
 {{overall.body.formatting}}
 
-[{overall.body.link.text}}]({{overall.body.link.url}}).
+[{{overall.body.link.text}}]({{overall.body.link.url}}).
 
 There should be whitespace between paragraphs.
 
