@@ -33,7 +33,7 @@
                },
                {
                   "lang":"ruby",
-                  "code":"GitHubPages::Dependencies.gems.each do |gem, version|\\n  s.add_dependency(gem, \"= #{version}\")\nend"
+                  "code":"GitHubPages::Dependencies.gems.each do |gem, version|\\n  s.add_dependency(gem, \"= #{version}\")\\nend"
                }
             ]
          },
