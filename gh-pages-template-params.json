@@ -29,11 +29,11 @@
             "samples":[
                {
                   "lang":"js",
-                  "code":"// Javascript code with syntax highlighting.\nvar fun = function lang(l) {\n  dateformat.i18n = require('./lang/' + l)\n  return true;\n}"
+                  "code":"// Javascript code with syntax highlighting.\\nvar fun = function lang(l) {\\n  dateformat.i18n = require('./lang/' + l)\\n  return true;\\n}"
                },
                {
                   "lang":"ruby",
-                  "code":"GitHubPages::Dependencies.gems.each do |gem, version|\n  s.add_dependency(gem, \"= #{version}\")\nend"
+                  "code":"GitHubPages::Dependencies.gems.each do |gem, version|\\n  s.add_dependency(gem, \"= #{version}\")\nend"
                }
             ]
          },
