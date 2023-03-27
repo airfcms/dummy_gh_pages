@@ -8,6 +8,7 @@
 	],
 	"templatePatterns": [
 		"docs/_config.yaml",
-		"docs/index.md"
+		"docs/index.md",
+		"docs/notes.md"
 	]
 }
