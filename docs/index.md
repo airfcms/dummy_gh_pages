@@ -11,38 +11,26 @@ There should be whitespace between paragraphs.
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
 # {{overall.body.h1.heading}}
-{% for paragraph in overall.body.h1.paragraphs %}
-{paragraph}}
-{% endfor %}
+{% for paragraph in overall.body.h1.paragraphs %}{{paragraph}}{% endfor %}
 
 ## {{overall.body.h2.heading}}
-{% for paragraph in overall.body.h1.paragraphs %}
-> {paragraph}}
-{% endfor %}
+{% for paragraph in overall.body.h1.paragraphs %}> {{paragraph}}{% endfor %}
 
 ### {{overall.body.h3.heading}}
-{% for sample in overall.body.h3.samples %}
-```{{sample.lang}}
+{% for sample in overall.body.h3.samples %}```{{sample.lang}}
 {{sample.code}}
-```
-{% endfor %}
+```{% endfor %}
 
 #### {{overall.body.h4.heading}}
-{% for entry in overall.body.h4.list %}
-*   {{entry}}
-{% endfor %}
+{% for entry in overall.body.h4.list %}*   {{entry}}{% endfor %}
 
 ##### {{overall.body.h5.heading}}
-{% for entry in overall.body.h5.list %}
-{{loop.index}}.  {{entry}}
-{% endfor %}
+{% for entry in overall.body.h5.list %}{{loop.index}}.  {{entry}}{% endfor %}
 
 ###### {{overall.body.h6.heading}}
 | {{overall.body.h6.table.header[0]}} | {{overall.body.h6.table.header[1]}} | {{overall.body.h6.table.header[2]}} |
 |:-------------|:------------------|:------|
-{% for row in overall.body.h6.table.rows %}
-| row[0] | row[1] | row[2] |
-{% endfor %}
+{% for row in overall.body.h6.table.rows %}| {{row[0]}} | {{row[1]}} | {{row[2]}} |{% endfor %}
 
 ### There's a horizontal rule below this.
 
@@ -64,10 +52,8 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 ### And a nested list (documentation):
 
-{% for entry in versions.latest.index.docs %}
-- {{entry.version}}
-	- [{{entry.text}}]({{entry.link}})
-{% endfor %}
+{% for entry in versions.latest.index.docs %}- {{entry.version}}
+	- [{{entry.text}}]({{entry.link}}){% endfor %}
 
 ### Small image
 
@@ -77,14 +63,11 @@ There should be whitespace between paragraphs. We recommend including a README, 
 
 ![{{overall.body.img2.text}}]({{overall.body.img2.url}})
 
-
 ### Definition lists can be used with HTML syntax.
 
 <dl>
-{% for entry in overall.body.html %}
-<dt>{{entry.term}}</dt>
-<dd>{{entry.description}}</dd>
-{% endfor %}
+{% for entry in overall.body.html %}<dt>{{entry.term}}</dt>
+<dd>{{entry.description}}</dd>{% endfor %}
 </dl>
 
 ```
